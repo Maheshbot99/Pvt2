@@ -6,6 +6,6 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 ADMIN = int(environ.get("ADMIN", ""))          
 CAPTION = environ.get("CAPTION", "")
 
-# for thumbnail
+# for thumbnail 
 DOWNLOAD_LOCATION = "./DOWNLOADS"
 
