@@ -1,9 +1,9 @@
 import time, os
 from pyrogram import Client, filters, enums
-from kingfy import DOWNLOAD_LOCATION, CAPTION, ADMINS
+from kingfy import DOWNLOAD_LOCATION, CAPTION, ADMIN
 from main.filerename import progress_message, humanbytes
 
-@Client.on_message(filters.private & filters.command("rename") & filters.user(ADMINS))             
+@Client.on_message(filters.private & filters.command("rename") & filters.user(ADMIN))             
 async def rename_file(bot, msg):
     reply = msg.reply_to_message
     if len(msg.command) < 2 or not reply:
