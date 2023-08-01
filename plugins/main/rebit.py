@@ -1,5 +1,5 @@
 from pyrogram import Client
-from config import *
+from kingfy import *
 import os
 
 class Bot(Client):
