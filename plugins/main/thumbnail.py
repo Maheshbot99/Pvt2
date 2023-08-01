@@ -32,3 +32,4 @@ async def del_tumb(bot, msg):
         print(e)
         return await msg.reply_text(text="you don't have any thumbnail")
     
+ 
