@@ -36,7 +36,7 @@ add your text """
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]</b>"""
     SOURCE_TXT = """<b>NOTE:
 ⚠️ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
-◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://github.com'>ʜᴇʀᴇ</a>
+◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/NewCinemaClub'>ʜᴇʀᴇ</a>
 
 ◆ ᴀʟʟ ᴄʀᴇᴅɪᴛs​: <a href='https://t.me/CrazyXBoTsBot'>ᴏᴡɴᴇʀ</a></b>"""
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -415,7 +415,7 @@ coммand and υѕeѕ
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟</b>
     
 <b>• ꜰᴜʟʟ ɴᴀᴍᴇ :</b> || ᴍᴀʜᴇꜱʜ.ꜱ ||
-<b>• ᴜꜱᴇʀɴᴀᴍᴇ : @CrazyXBoTsBot</b>
+<b>• ᴜꜱᴇʀɴᴀᴍᴇ : @CrazyXBoTs</b>
 <b>• ɢɪᴛʜᴜʙ : <a href='https://t.me/NewCinemaClub'>ᴄʟɪᴄᴋ ʜᴇʀᴇ​</a></b>
 """
     CLOSE_TXT = """
