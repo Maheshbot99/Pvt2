@@ -16,7 +16,7 @@ class script(object):
 ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ꜰᴏʀ ᴍy ᴄᴏᴍᴍᴀɴᴅꜱ.</b>"""
     
     SUPPORT_TXT = """
-add your text """
+<b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
