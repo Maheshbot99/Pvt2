@@ -122,7 +122,7 @@ PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 LANGUAGES = ["malayalam", "tamil", "english", "hindi", "telugu", "kannada"]
 
 # Delete Time
-DELETE_TIME = int(environ.get('DELETE_TIME', 600))
+DELETE_TIME = int(environ.get('DELETE_TIME', 432000))
 MANUAL_TIME = int(environ.get('MANUAL_TIME', 20))
 DLT_TIME = int(environ.get('DLT_TIME', 20))
 
