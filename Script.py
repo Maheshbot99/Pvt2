@@ -10,7 +10,7 @@ class script(object):
 
 ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaClub"""
     
-    FEATURES_TXT = """
+    TGRAPH_TXT = """
 ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ.........
 
 ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaClub"""
