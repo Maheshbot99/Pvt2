@@ -11,9 +11,10 @@ class script(object):
 ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaClub"""
     
     TGRAPH_TXT = """
-ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ.........
+<b>⍟───[ ᴛᴇʟᴇɢʀᴀᴩʜ ᴩʜᴏᴛᴏ ]───⍟ 
+ꜱᴇɴᴅ ᴍᴇ ᴏɴᴇ ᴩʜᴏᴛᴏ ᴀɴᴅ ᴜꜱᴇ ᴛʜɪꜱ /telegraph ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴩʜ ʟɪɴᴋ
 
-ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaClub"""
+◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
 
     HELPER_TXT = """
 <b>ʜᴇy {}
