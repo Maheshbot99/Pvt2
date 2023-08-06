@@ -66,7 +66,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**ꜱᴜʙꜱᴄʀɪʙᴇ ›› [🍁 ᴄʜᴀɴɴᴇʟ 🍁](https://t.me/NewCinemaClub)**\n**ᴩᴏᴡᴇʀᴇᴅ ʙy ›› [muѕíc](https://t.me/AutoFilter_MsBot)**\n **@CrazyXBots**'
+        rep = '**ᴩᴏᴡᴇʀᴇᴅ ʙy ›› [Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ](https://t.me/AutoFilter_MsBot)** \n\n**◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub**'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -139,8 +139,10 @@ async def vsong(client, message: Message):
     file_stark = f"{ytdl_data['id']}.mp4"
     capy = f"""
 **ᴛɪᴛʟᴇ :** [{thum}]({mo})
+
 **ʀᴇqᴜᴇꜱᴛᴇᴅ ʙy :** **{message.from_user.mention}**
-**@NewCinemaClub**
+
+**◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub**
 """
     await client.send_video(
         message.chat.id,
