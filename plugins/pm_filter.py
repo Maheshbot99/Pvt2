@@ -1307,7 +1307,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('〆 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 〆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ​', callback_data='MAHESHS'),
+            InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ​', callback_data='MAHESH'),
             InlineKeyboardButton('👨‍💻 ᴅᴇᴠ​', callback_data='owner_info')
             ],[      
             InlineKeyboardButton('🎭 ʜᴇʟᴘ 🎭', callback_data='help2'),
@@ -1343,7 +1343,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "MAHESHS":
+    elif query.data == "MAHESH":
         buttons = [[
             InlineKeyboardButton('ʙᴏᴛꜱ ᴜᴩᴅᴀᴛᴇꜱ', url='t.me/Crazyxbots'),
             InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NewCinemaClub')
@@ -1453,7 +1453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('∙ ʀᴜʟᴇs ∙', callback_data='rule_btn'),
             InlineKeyboardButton('∙ sᴇᴛᴛɪɴɢs ∙', callback_data='setting_btn')
         ], [
-            InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ', callback_data='mahesh'),
+            InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ', callback_data='ytdlt'),
             InlineKeyboardButton('ꜱᴏᴏɴ', callback_data='soon')
         ], [
             InlineKeyboardButton('⇌ ʙᴀᴄᴋ ⇌', callback_data='start')
@@ -1548,7 +1548,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        elif query.data == "mahesh":
+        elif query.data == "ytdlt":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help2')
         ]]
