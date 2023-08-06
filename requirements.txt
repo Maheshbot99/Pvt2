@@ -16,3 +16,7 @@ heroku3
 openai==0.25.0
 ytthumb
 YoutubeTags
+youtube_search
+youtube-search-python==1.4.6
+yt-dlp
+youtube-dl
