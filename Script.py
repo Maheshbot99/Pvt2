@@ -19,7 +19,7 @@ class script(object):
 <b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
     YTTHUMB_TXT = """
-<b>⍟───[  1 ]───⍟</b> """
+<b>⍟───[  YOUTUBE THUMBNAIL DOWNLOAD /n/n USE THIS COMMAND /ytthumb or /dlthumb TO DOWNLOAD ANY YOUTUBE VIDEO THUMBNAIL]───⍟</b> """
 
     SOON_TXT = """
 <b>⍟───[  2 ]───⍟</b> """
