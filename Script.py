@@ -19,7 +19,10 @@ class script(object):
 <b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
     YTTHUMB_TXT = """
-<b>⍟───[  YOUTUBE THUMBNAIL DOWNLOAD /n/n USE THIS COMMAND /ytthumb or /dlthumb TO DOWNLOAD ANY YOUTUBE VIDEO THUMBNAIL /nCRADIT : @CrazyXBoTs]───⍟</b> """
+<b>⍟───[ ᴛʜᴜᴍʙɴᴀɪʟ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ]───⍟</b>
+<b>yᴏᴜᴛᴜʙᴇ ᴛʜᴜᴍʙɴᴀɪʟ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ɪꜱ ᴀ ꜰʀᴇᴇ ᴛᴏᴏʟ ᴛᴏ ꜰɪɴᴅ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ yᴏᴜᴛᴜʙᴇ ᴠɪᴅᴇᴏ ᴛʜᴜᴍʙɴᴀɪʟ ꜰʀᴏᴍ ᴀɴy ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ ʟᴏɢɪɴ
+
+ᴇxᴀᴍᴩʟᴇ :</b> <code>/ytthumb https://youtu.be/examplelink</code>"""
 
     SOON_TXT = """
 <b>⍟───[  CHECK ANY USED YOUTUBE VIDEO TAGS USE THIS COMMAND /yttags TO VIEW YT VIDEO TAGS /nCRADIT : @CrazyXBoTs]───⍟</b> """
