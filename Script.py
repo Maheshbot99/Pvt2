@@ -24,7 +24,7 @@ class script(object):
 
 ᴇxᴀᴍᴩʟᴇ :</b> <code>/ytthumb https://youtu.be/examplelink</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : [ᴄʀᴀᴢy x ʙᴏᴛꜱ](https://t.me/CrazyXBoTs)</b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @CrazyXBoTs</b>"""
 
     TSONGS_TXT = """
 <b>⍟───[ ᴏᴜᴛᴜʙᴇ ꜱᴏɴɢꜱ ]───⍟</b> 
@@ -35,7 +35,7 @@ class script(object):
 
 <b>2.</b> <code>/yvideo Kantara</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : [ᴄʀᴀᴢy x ʙᴏᴛꜱ](https://t.me/CrazyXBoTs)</b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @CrazyXBoTs</b>"""
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
