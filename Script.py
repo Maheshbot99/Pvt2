@@ -24,7 +24,7 @@ class script(object):
 
 ᴇxᴀᴍᴩʟᴇ :</b> <code>/ytthumb https://youtu.be/examplelink</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @CrazyXBoTs</b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
 
     TSONGS_TXT = """
 <b>⍟───[ ᴏᴜᴛᴜʙᴇ ꜱᴏɴɢꜱ ]───⍟</b> 
@@ -35,7 +35,7 @@ class script(object):
 
 <b>2.</b> <code>/yvideo Kantara</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @CrazyXBoTs</b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
@@ -237,7 +237,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>
-©ᴍʟᴢ ʙᴏᴛᴢ"""
+@NewCinemaClub"""
 
     LOGO = """
 𝑺𝒕𝒂𝒓𝒕𝒊𝒏𝒈.......🥵"""
@@ -263,7 +263,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 
 ›› Step 1: Add This bot to your group as an admin..
 
-›› Step 2: If you don't Using any shortner website then make account first on shorturllink.in (You can also use other link shortner website).
+›› Step 2: If you don't Using any shortner website then make account first on tnshort.net (You can also use other link shortner website).
 
 ›› Step 3: Copy your API from website and then, simply set your website and API Using the
 /set_shortner command
@@ -311,7 +311,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 
 ☆ ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ
 
-❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ CrazyXBoTs"""
+❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @NewCinemaClub"""
 
     FILE_MSG = """
 <b>Hai 👋 {} </b>😍
