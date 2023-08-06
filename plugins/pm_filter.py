@@ -1456,6 +1456,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ᴛʜᴜᴍʙ', callback_data='ytdlt'),
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ ꜱᴏɴɢꜱ', callback_data='songs')
         ], [
+            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴩʜ', callback_data='tgraph'),
+            InlineKeyboardButton('ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇꜱ', callback_data='features')
+        ], [
             InlineKeyboardButton('⇌ ʙᴀᴄᴋ ⇌', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1567,6 +1570,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.TSONGS_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+
+    elif query.data == "tgraph":
+        buttons = [[
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help2')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.TGRAPH_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
