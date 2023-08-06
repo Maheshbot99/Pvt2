@@ -16,6 +16,12 @@ class script(object):
 
 ◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
 
+    FONTS_TXT = """
+<b>⍟───[ ᴛᴇʟᴇɢʀᴀᴩʜ ᴩʜᴏᴛᴏ ]───⍟ 
+ꜱᴇɴᴅ ᴍᴇ ᴏɴᴇ ᴩʜᴏᴛᴏ ᴀɴᴅ ᴜꜱᴇ ᴛʜɪꜱ /telegraph ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴩʜ ʟɪɴᴋ
+
+◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
+
     HELPER_TXT = """
 <b>ʜᴇy {}
 
