@@ -18,6 +18,9 @@ class script(object):
     SUPPORT_TXT = """
 <b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
+    MAHESH = """
+<b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
+
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
 
