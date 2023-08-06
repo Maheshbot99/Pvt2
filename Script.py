@@ -18,7 +18,7 @@ class script(object):
     SUPPORT_TXT = """
 <b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
-    MAHESH_TXT = """
+    EXTRAM_TXT = """
 <b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
     STARTER_TXT = """
