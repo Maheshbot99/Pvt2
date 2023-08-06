@@ -25,7 +25,10 @@ class script(object):
 ᴇxᴀᴍᴩʟᴇ :</b> <code>/ytthumb https://youtu.be/examplelink</code>"""
 
     SOON_TXT = """
-<b>⍟───[  CHECK ANY USED YOUTUBE VIDEO TAGS USE THIS COMMAND /yttags TO VIEW YT VIDEO TAGS /nCRADIT : @CrazyXBoTs]───⍟</b> """
+<b>⍟───[ ꜰᴏɴᴛ ɢᴇɴᴇʀᴀᴛᴏʀ ]───⍟</b> 
+<b>ꜰᴏɴᴛ ɢᴇɴᴇʀᴀᴛᴏʀ ᴛᴏᴏʟ ᴄᴀɴ ʜᴇʟᴏ yᴏᴜ ᴄᴏɴᴠᴇʀᴛ ᴀɴy ᴛᴇxᴛ ɪɴᴛᴏ ꜰᴀɴᴄy ᴀɴᴅ ᴇyᴇ-ᴄᴀᴛᴄʜɪɴɢ ꜰᴏɴᴛꜱ ɪɴ ꜱᴇᴄᴏɴᴅꜱ, ɪɴ ᴊᴜꜱᴛ ᴀ ꜰᴇᴡ ᴄʟɪᴄᴋꜱ
+
+ᴇxᴀᴍᴩʟᴇ :</b> <code>/font yᴏᴜʀ ᴛᴇxᴛ</code>"""
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
