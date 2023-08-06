@@ -24,9 +24,9 @@ class script(object):
 
 ᴇxᴀᴍᴩʟᴇ :</b> <code>/ytthumb https://youtu.be/examplelink</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : <a href='https://t.me/CrazyXBoTs '>ᴄʀᴀᴢy x ʙᴏᴛꜱ</a></b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : [ᴄʀᴀᴢy x ʙᴏᴛꜱ](https://t.me/CrazyXBoTs)</b>"""
 
-    SOON_TXT = """
+    YTSONGS_TXT = """
 <b>⍟───[ ᴏᴜᴛᴜʙᴇ ꜱᴏɴɢꜱ ]───⍟</b> 
 <b> yᴏᴜᴛᴜʙᴇ ꜱᴏɴɢꜱ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ɪꜱ ᴀ ꜰʀᴇᴇ ᴛᴏᴏʟ ᴛᴏ ꜰɪɴᴅ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ᴏʀ ꜱᴏɴɢꜱ ꜰʀᴏᴍ yᴏᴜᴛᴜʙᴇ ᴡɪᴛʜᴏᴜᴛ ʟᴏɢɪɴ
 
@@ -35,7 +35,7 @@ class script(object):
 
 <b>2.</b> <code>/yvideo Kantara</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : <a href='https://t.me/CrazyXBoTs '>ᴄʀᴀᴢy x ʙᴏᴛꜱ</a></b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : [ᴄʀᴀᴢy x ʙᴏᴛꜱ](https://t.me/CrazyXBoTs)</b>"""
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
