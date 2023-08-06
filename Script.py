@@ -19,10 +19,10 @@ class script(object):
 <b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
     YTTHUMB_TXT = """
-<b>⍟───[  YOUTUBE THUMBNAIL DOWNLOAD /n/n USE THIS COMMAND /ytthumb or /dlthumb TO DOWNLOAD ANY YOUTUBE VIDEO THUMBNAIL]───⍟</b> """
+<b>⍟───[  YOUTUBE THUMBNAIL DOWNLOAD /n/n USE THIS COMMAND /ytthumb or /dlthumb TO DOWNLOAD ANY YOUTUBE VIDEO THUMBNAIL /nCRADIT : @CrazyXBoTs]───⍟</b> """
 
     SOON_TXT = """
-<b>⍟───[  2 ]───⍟</b> """
+<b>⍟───[  CHECK ANY USED YOUTUBE VIDEO TAGS USE THIS COMMAND /yttags TO VIEW YT VIDEO TAGS /nCRADIT : @CrazyXBoTs]───⍟</b> """
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
