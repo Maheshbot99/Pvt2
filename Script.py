@@ -9,6 +9,11 @@ class script(object):
 ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇꜱ ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ.........
 
 ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaClub"""
+    
+    FEATURES_TXT = """
+ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ.........
+
+ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaClub"""
 
     HELPER_TXT = """
 <b>ʜᴇy {}
