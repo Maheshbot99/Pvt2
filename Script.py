@@ -18,8 +18,11 @@ class script(object):
     SUPPORT_TXT = """
 <b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
 
-    EXTRAM_TXT = """
-<b>⍟───[ ᴊᴏɪɴ ᴜꜱ ]───⍟</b> """
+    YTTHUMB_TXT = """
+<b>⍟───[  1 ]───⍟</b> """
+
+    SOON_TXT = """
+<b>⍟───[  2 ]───⍟</b> """
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
