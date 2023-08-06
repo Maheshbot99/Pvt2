@@ -1454,7 +1454,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('∙ sᴇᴛᴛɪɴɢs ∙', callback_data='setting_btn')
         ], [
             InlineKeyboardButton('yᴏᴜᴛᴜʙᴇ', callback_data='ytdlt'),
-            InlineKeyboardButton('ꜱᴏᴏɴ', callback_data='soon')
+            InlineKeyboardButton('ꜱᴏᴏɴ', callback_data='songs')
         ], [
             InlineKeyboardButton('⇌ ʙᴀᴄᴋ ⇌', callback_data='start')
         ]]
@@ -1560,13 +1560,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     
-    elif query.data == "soon":
+    elif query.data == "songs":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help2')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.SOON_TXT,
+            text=script.TSONGS_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
