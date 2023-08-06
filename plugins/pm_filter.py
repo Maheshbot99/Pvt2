@@ -1360,23 +1360,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        elif query.data == "MAHESH":
-        buttons = [[
-            InlineKeyboardButton('ʙᴏᴛꜱ ᴜᴩᴅᴀᴛᴇꜱ', url='t.me/Crazyxbots'),
-            InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NewCinemaClub')
-        ],[
-            InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ', url='https://t.me/MsMovieRequests'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/CrazyXBoTsbot')
-        ],[
-            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
-        ]]
         
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.EXTRAM_TXT,
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
     elif query.data == "global_filters":
         buttons = [[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='filters')
