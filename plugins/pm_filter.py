@@ -280,8 +280,8 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton(f'🔍 {search} 🔎', 'reqst1'),
-        InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ​", url="https://t.me/NewCinemaClub/8")
+        InlineKeyboardButton(f'🔍 {search} 🔎', 'reqst1')],
+       [InlineKeyboardButton("ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ​", url="https://t.me/NewCinemaClub/8")
     ])
     try:
         await query.edit_message_reply_markup(
