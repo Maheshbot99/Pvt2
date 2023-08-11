@@ -280,8 +280,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton(f'🔍 {search} 🔎', 'reqst1')],
-        [InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaClub/8')
+        InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaClub/8')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1933,8 +1932,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton(f'🔍 {search} 🔎', 'reqst1')],
-        [InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaClub/8')
+        InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaClub/8')
     ])
    # await message.delete()
     #m=await message.reply_text("🔍") 
