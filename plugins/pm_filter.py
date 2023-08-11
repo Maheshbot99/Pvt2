@@ -154,7 +154,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -163,7 +163,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -176,7 +176,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -185,7 +185,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -490,7 +490,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("💢 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐆𝐫𝐨𝐮𝐩𝐬 💢", url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+        InlineKeyboardButton("💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢", url=f't.me/NewCinemaClub/8')
     ])
     offset = 0
 
@@ -1894,7 +1894,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1903,7 +1903,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1916,7 +1916,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1925,7 +1925,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton("ᴀʟʟ​", callback_data=f"send_fall#files#{key}#{offset}"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
