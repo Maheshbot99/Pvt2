@@ -205,10 +205,10 @@ Nᴀᴍᴇ - {}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 ᴛɪᴛʟᴇ : <a href={url}>{query}</a>
-🎭 ɢᴇɴʀᴇꜱ : {genres}
 🔆 ʟᴀɴɢᴜᴀɢᴇ : {languages}
 📆 ʀᴇʟᴇᴀꜱᴇ ɪɴꜰᴏ : <a href={url}/releaseinfo>{year}</a>
 🌟 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10
+🎭 ɢᴇɴʀᴇꜱ : {genres}
 
 💁 ʀᴇqᴜᴇꜱᴛᴇᴅ ʙy : {message.from_user.mention}
 💥 ꜰᴏʀᴡᴀʀᴅᴇᴅ ʙy : {message.chat.title}</b>"""
