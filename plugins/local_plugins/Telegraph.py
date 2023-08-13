@@ -43,7 +43,7 @@ async def telegraph(client, message):
                         [
                             [
                                 InlineKeyboardButton(
-                                    '⭕️ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ⭕️', url=f'https://t.me/NewCinemaClub'
+                                    '⭕️ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ⭕️', url=f'https://t.me/NewCinemaStore'
                                 )
                             ]
                         ]
