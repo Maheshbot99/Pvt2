@@ -68,8 +68,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text="<b>ʜᴇʏ ᴅᴜᴅᴇ 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ᴏɴ ᴏᴜʀ <a href=https://t.me/NewCinemaClub>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ​👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"t.me/NewCinemaClub")]]))
+         text="<b>ʜᴇʏ ᴅᴜᴅᴇ 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ᴏɴ ᴏᴜʀ <a href=https://t.me/NewCinemaStore>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ​👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"t.me/NewCinemaStore")]]))
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>👻 𝐏𝐌_𝐌𝐒𝐆 👻\n\n📝ᴍᴇssᴀɢᴇ​:-{content}\n\n👶🏻ʀᴇQᴜᴇꜱᴛᴇᴅ ʙʏ:-{user}\n\n🃏ᴜꜱᴇʀ ɪᴅ:-{user_id}</b>"
@@ -154,7 +154,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -163,7 +163,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -176,7 +176,7 @@ async def next_page(bot, query):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -185,7 +185,7 @@ async def next_page(bot, query):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -280,7 +280,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaClub/8')
+        InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaStore/2')
     ])
     try:
         await query.edit_message_reply_markup(
@@ -490,7 +490,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢", url=f't.me/NewCinemaClub/8')
+        InlineKeyboardButton("💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢", url=f't.me/NewCinemaStore/2')
     ])
     offset = 0
 
@@ -758,7 +758,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                           InlineKeyboardButton('🇮🇳 ʜɪɴ', callback_data='hindi'),
                           InlineKeyboardButton('🇮🇳 ᴛᴀᴍ', callback_data='tamil')
                         ],[                         
-                          InlineKeyboardButton("🔋 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​ 🔋", url='t.me/NewCinemaClub')
+                          InlineKeyboardButton("🔋 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ​ 🔋", url='t.me/NewCinemaStore')
                         ]]
                     )
                 )
@@ -825,7 +825,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton("❤️‍🔥 ᴍᴏᴠɪᴇs​ ❤️‍🔥", url='https://t.me/NewCinemaClub')
+                  InlineKeyboardButton("❤️‍🔥 ᴍᴏᴠɪᴇs​ ❤️‍🔥", url='https://t.me/NewCinemaStore')
                  ]
                 ]
             )
@@ -1346,7 +1346,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "MAHESH":
         buttons = [[
             InlineKeyboardButton('ʙᴏᴛꜱ ᴜᴩᴅᴀᴛᴇꜱ', url='t.me/Crazyxbots'),
-            InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NewCinemaClub')
+            InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/NewCinemaStore')
         ],[
             InlineKeyboardButton('ᴍᴏᴠɪᴇꜱ ɢʀᴏᴜᴩ', url='https://t.me/MsMovieRequests'),
             InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/CrazyXBoTsbot')
@@ -1389,7 +1389,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "money_bot":
         buttons = [[
-            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/NewCinemaClub')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ sᴜᴘᴘᴏʀᴛ', url='https://t.me/NewCinemaStore')
         ],[
             InlineKeyboardButton('⇍ ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ ⊝', callback_data='close_data')
@@ -1894,7 +1894,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1903,7 +1903,7 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1916,7 +1916,7 @@ async def auto_filter(client, msg, spoll=False):
         if settings['auto_delete']:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
@@ -1925,14 +1925,14 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn.insert(0, 
                 [
-                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaClub"),
+                    InlineKeyboardButton(f"ᴜᴩᴅᴀᴛᴇꜱ​", url="t.me/NewCinemaStore"),
                     InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs", callback_data=f"languages#{search.replace(' ', '_')}#{key}"),
                     InlineKeyboardButton(f'🔮 ᴛɪᴘs', 'tips')
                 ]
             )
 
     btn.insert(0, [
-        InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaClub/8')
+        InlineKeyboardButton(f'💢 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴᴅᴏᴀᴅ 💢', url='t.me/NewCinemaStore/2')
     ])
    # await message.delete()
     #m=await message.reply_text("🔍") 
