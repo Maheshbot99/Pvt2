@@ -8,20 +8,20 @@ class script(object):
     HELP_TXT = """
 ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇꜱ ᴄᴏᴍɪɴɢ ꜱᴏᴏɴ.........
 
-ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaClub"""
+ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ - @NewCinemaStore"""
     
     TGRAPH_TXT = """
 <b>⍟───[ ᴛᴇʟᴇɢʀᴀᴩʜ ᴩʜᴏᴛᴏ ]───⍟ 
 ꜱᴇɴᴅ ᴍᴇ ᴏɴᴇ ᴩʜᴏᴛᴏ ᴀɴᴅ ᴜꜱᴇ ᴛʜɪꜱ /telegraph ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢᴇᴛ ᴛᴇʟᴇɢʀᴀᴩʜ ʟɪɴᴋ
 
-◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
+◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaStore</b>"""
 
     FONTS_TXT = """
 <b>ꜰᴏɴᴛ ɢᴇɴᴇʀᴀᴛᴏʀ ᴛᴏᴏʟ ᴄᴀɴ ʜᴇʟᴏ yᴏᴜ ᴄᴏɴᴠᴇʀᴛ ᴀɴy ᴛᴇxᴛ ɪɴᴛᴏ ꜰᴀɴᴄy ᴀɴᴅ ᴇyᴇ-ᴄᴀᴛᴄʜɪɴɢ ꜰᴏɴᴛꜱ ɪɴ ꜱᴇᴄᴏɴᴅꜱ, ɪɴ ᴊᴜꜱᴛ ᴀ ꜰᴇᴡ ᴄʟɪᴄᴋꜱ
 
 ᴇxᴀᴍᴩʟᴇ :</b> <code>/font Your Name</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaStore</b>"""
 
     HELPER_TXT = """
 <b>ʜᴇy {}
@@ -37,7 +37,7 @@ class script(object):
 
 ᴇxᴀᴍᴩʟᴇ :</b> <code>/ytthumb https://youtu.be/examplelink</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaStore</b>"""
 
     TSONGS_TXT = """
 <b>⍟───[ ᴏᴜᴛᴜʙᴇ ꜱᴏɴɢꜱ ]───⍟</b> 
@@ -48,7 +48,7 @@ class script(object):
 
 <b>2.</b> <code>/yvideo Kantara</code>
 
-<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaClub</b>"""
+<b>◆ ᴄʀᴇᴅɪᴛ ◆ : @NewCinemaStore</b>"""
 
     STARTER_TXT = """
 <b>ʜᴇʟʟᴏ {}
@@ -64,11 +64,11 @@ class script(object):
 ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://t.me/NewCinemaClub'>ǫᴜɪᴄᴋ ꜰᴀsᴛ​</a>
+‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://t.me/NewCinemaStore'>ǫᴜɪᴄᴋ ꜰᴀsᴛ​</a>
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ​]</b>"""
     SOURCE_TXT = """<b>NOTE:
 ⚠️ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀɴ ᴏᴘᴇɴ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ
-◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/NewCinemaClub'>ʜᴇʀᴇ</a>
+◆ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/NewCinemaStore'>ʜᴇʀᴇ</a>
 
 ◆ ᴀʟʟ ᴄʀᴇᴅɪᴛs​: <a href='https://t.me/CrazyXBoTsBot'>ᴏᴡɴᴇʀ</a></b>"""
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
@@ -90,7 +90,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/NewCinemaClub)</code>
+<code>[Button Text](buttonurl:https://t.me/NewCinemaStore)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -199,7 +199,7 @@ Nᴀᴍᴇ - {}"""
 <b>❍   {file_size}</b>
 
 <b>╔══════════════════╗</b>
-          <b>[𝔹𝔸ℂ𝕂𝕌ℙ ℂℍ𝔸ℕℕ𝔼𝕃](https://t.me/NewCinemaClub)</b>
+          <b>[𝔹𝔸ℂ𝕂𝕌ℙ ℂℍ𝔸ℕℕ𝔼𝕃](https://t.me/NewCinemaStore)</b>
            <b>[𝕊𝕌ℙℙ𝕆ℝ𝕋 𝔾ℝ𝕆𝕌ℙ](https://t.me/MsMovieRequests)</b>
 <b>╚══════════════════╝</b>"""
 
@@ -241,7 +241,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>
-@NewCinemaClub"""
+@NewCinemaStore"""
 
     LOGO = """
 𝑺𝒕𝒂𝒓𝒕𝒊𝒏𝒈.......🥵"""
@@ -285,7 +285,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 ᴄᴜʀʀᴇɴᴛʟʏ ᴛʜɪꜱ ʙᴜᴛᴛᴏɴ ɪꜱ ɴᴏᴛ ᴡᴏʀᴋ.. 
 ʙᴇᴄᴀᴜꜱᴇ ʙᴜᴛᴛᴏɴ ᴡᴇʀᴇ ʀᴇᴍᴏᴠᴇᴅ ʙʏ ᴀᴅᴍɪɴ
 
-©NewCinemaClub"""
+©NewCinemaStore"""
     INFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
 
@@ -293,7 +293,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 
 ɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ ꜱᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ / sᴇʀɪᴇs ꜰɪʟᴇ, ʟᴏᴏᴋ ᴀᴛ ᴛʜᴇ ɴᴇxᴛ ᴘᴀɢᴇ
 
-©NewCinemaClub"""
+©NewCinemaStore"""
     FORMAT = """
 ⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯
 ⇄ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ ⇄
@@ -315,7 +315,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 
 ☆ ᴄᴏɴᴛɪɴᴜᴇ ᴛʜɪs ᴍᴇᴛʜᴏᴅ ᴛᴏ ɢᴇᴛᴛɪɴɢ ʏᴏᴜ ғɪʟᴇ
 
-❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @NewCinemaClub"""
+❣ ᴘᴏᴡᴇʀᴇᴅ ʙʏ @NewCinemaStore"""
 
     FILE_MSG = """
 <b>Hai 👋 {} </b>😍
@@ -333,7 +333,7 @@ Now You can start earning 💸 money today with our Simple and easy-to-use bot!
 ------------------------------------
 This file 📁 will be deleted ❌ from this group 📍 within 10 ⏰ minutes due to copyright ©️
 
-⏩ How To Forward : <a href='https://t.me/NewCinemaClub'>Click Here</a>"""
+⏩ How To Forward : <a href='https://t.me/NewCinemaStore'>Click Here</a>"""
 
     FILE_READY_TXT = """
 <b>ʜᴇʟʟᴏ {} 💞  
