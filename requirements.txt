@@ -26,3 +26,9 @@ youtube-dl
 wget
 aiofiles
 ffmpeg
+
+#---Rename----#
+humanize
+Pillow
+hachoir
+dnspython
