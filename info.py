@@ -84,14 +84,6 @@ GROUP_SUB = int(group_sub) if auth_channel and id_pattern.search(group_sub) else
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()]
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
-#LazyRenamer Configs
-FLOOD = int(environ.get("FLOOD", "10"))
-LAZY_MODE = bool(environ.get("LAZY_MODE", "True"))
-#Add user id of the user in this field those who you want to be Authentic user for file renaming features
-lazy_renamers = [int(lazrenamers) if id_pattern.search(lazrenamers) else lazrenamers for lazrenamers in environ.get('LAZY_RENAMERS', '5450011131').split()]
-LAZY_RENAMERS = (lazy_renamers + ADMINS) if lazy_renamers else []
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', '-1001808372200'))
-
 # Others
 PORT = environ.get("PORT", "8080")
 VERIFY = bool(environ.get('VERIFY', False))
