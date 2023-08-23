@@ -148,7 +148,7 @@ class Database:
     async def get_db_size(self):
         return (await self.db.command("dbstats"))['dataSize']
 
-#rename
+#rename 1
 
     async def set_thumbnail(self, id, file_id):
         await self.col.update_one({'id': int(id)}, {'$set': {'file_id': file_id}})
