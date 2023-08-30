@@ -21,7 +21,6 @@ BOT_TOKEN = environ['BOT_TOKEN']
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
-BOT_START_TIME = time()
 
 PICS = (environ.get('PICS', 'https://graph.org/file/c5911147b9a1c7530c222.jpg https://graph.org/file/c2f67160d556e5d1c4828.jpg https://graph.org/file/4cd01006da6410de18d41.jpg https://telegra.ph/file/ac524f66eec140ec69db5.jpg https://telegra.ph/file/bd94ba94b8bd34793cc81.jpg https://telegra.ph/file/0fd19a01130a1dec30ee2.jpg https://telegra.ph/file/9e71045e92e89ecf0b1cd.jpg https://telegra.ph/file/f739b561482df0be0a644.jpg https://graph.org/file/369640caced6891e79c3e.jpg https://graph.org/file/68a230c0f57e222448dab.jpg https://graph.org/file/45623ab4865a943ce0b0d.jpg')).split()
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/f7f2a532fe4b990044507.mp4")
