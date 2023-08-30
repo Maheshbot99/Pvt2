@@ -58,5 +58,5 @@ pyromod
 colorama
 getenv
 openai
-get_cap
+
   
